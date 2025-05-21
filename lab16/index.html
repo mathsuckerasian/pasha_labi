@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 GIF Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>ИГРА <span style="color: #add3dd;">2048</span></h1>
+
+        <div class="score-container">
+            <div class="score">Счёт: <span id="score">0</span></div>
+            <button id="restart">Новая игра</button>
+        </div>
+
+        <div class="grid" id="grid"></div>
+
+        <div class="game-over" id="game-over">
+            <img src="gifs/game-over.gif" alt="Game Over">
+            <button id="try-again">
+                <img src="gifs/try-again.gif" alt="Попробовать снова" style="width: 150px;">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
